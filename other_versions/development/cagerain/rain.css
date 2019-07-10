@@ -1,0 +1,9 @@
+marquee[Attributes Style] {
+-internal-marquee-style: scroll;
+-internal-marquee-direction: down;
+-internal-marquee-increment: 1px;
+}
+
+marquee {
+display: inline-block;
+}

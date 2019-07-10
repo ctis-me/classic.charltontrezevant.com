@@ -1,0 +1,38 @@
+==================================================OTHER VERSIONS OF THE SITE============================================
+
+
+KEY:
+.../directory--description & contents
+
+.../catdaddy--original version of the Mr.Zimmerman website. Uses shockwave flash and HTML 5, not as efficient/cross-platform
+as new version. **NOTE: DUE TO RESOURCE CONSOLIDATION, MEDIA FILES MAY BE FOUND AT resources/global/depreciated/catdaddy **
+
+.../downloadable--contains a downloadable, clean, ready-to-edit and deploy version of the homepage in .tar.gz format. 
+
+.../development--where I will work on new versions of the site, which should be considered unstable until 
+moved out of that directory.
+
+.../regular_version--clicking here redirects to the main, non-holiday version of the home page.
+
+...downloadable/special_versions--contains special versions of the site (holidays, etc) in zipped format. 
+
+=========================================================================================================================
+
+=====================
+LAST EDIT: 19 NOV 13
+=====================
+
+
+====
+LOG:
+====
+
+*19 NOV 13-Made this log
+*19 NOV 13-Created downloadable & deployment ready version of the site in /downloadable
+*19 NOV 13-Began work on christmas version of the site :)
+
+*21 NOV 13-Migrated web server to lighttpd for better bandwidth management, faster page loading,
+and decreased potential for DOS attacks. (TAKE THAT, DAVE!!!!)
+*21 NOV 13-Consolidated resources into root/resources/global for rick astley and old catdaddy page, as well as future pages. All will be in that one main resource directory.
+
+*1 DEC 13-finished development of christmas version of the site, and deployed it. :)

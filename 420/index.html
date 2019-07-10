@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<!--
+http://www.charltontrezevant.com/420/
+
+Created by Charlton Trezevant, with code borrowed from:
+
+The amazing visualidiot's ducksarethebest.com!
+this js fiddle: http://jsfiddle.net/jonnyc/Ujz4P/5/ !
+
+This utterly stupid web page would not have been possible without your work. Thanks a ton!
+
+GitHub: https://github.com/CTIS-NicNet/420-is-a-number
+
+Fuma gramen cotidie!
+-->
+
+
+<html lang="en">
+
+	<head>
+		<title>Smoke Weed Everyday</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Create beautiful works of art with WeedPaint! It's like painting, but with weed! (And also Snoop Dogg.)">
+		<link rel="shortcut icon" href="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/420/images/icon.png">
+		
+<style>
+
+
+*{
+cursor:none; 
+}
+
+#myCanvas {
+z-index: -500;
+opacity: 1;
+}
+
+
+body,html{
+  height:100%;
+}
+
+body {
+  overflow:hidden;
+  -webkit-transition:background .25s;
+}
+
+iframe,audio {
+  position:absolute;
+  left:-999em;
+  top:-999em;
+}
+
+img{
+  display:none;
+  position:absolute;
+  pointer-events:none;
+}
+
+#go-to-rehab {
+  display: none;
+  pointer-events: all;
+  bottom: 0;
+  right: 0;
+  z-index: 700;
+  position: absolute;
+}
+
+</style>
+
+
+<!-- Google Anal ytics-->
+<script type="text/javascript" src="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/javascript/an.js" async></script>
+</head>
+
+		<body>
+		<img src="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/420/images/weed.png" class="dankkush" onclick="blazeIt();">
+		<img src="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/420/images/snoop.gif" class="snoop" width="20%" height="50%" style="display: block;left: 0px;bottom: 0px;z-index: 500;" onclick="blazeIt();" ></img>	
+		<img src="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/420/images/dank_ass_bg.jpeg" style="position:fixed; display: block; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:-1000;">
+		
+
+		<!-- jQuery? more like crayQuery -->
+		<!-- I concur. Totally crazy. -->
+		<script src="//code.jquery.com/jquery-latest.min.js"></script>
+		
+		<script>
+var k, u, s, h, sodank;
+
+function x() {
+    return Math.floor(Math.random() * 255)
+}
+k = $(".dankkush");
+u = ['<iframe src="//www.youtube.com/embed/eEoMI9BwHp4?autoplay=1&loop=1"></iframe>',
+	'<iframe src="//www.youtube.com/embed/5I6w0_T3W8M?autoplay=1&loop=1"></iframe>',
+	'<iframe src="//www.youtube.com/embed/Wrr7JwGImvs?autoplay=1&loop=1"></iframe>',
+	'<iframe src="//www.youtube.com/embed/NPVUz6KDlbA?autoplay=1&loop=1"></iframe>'];
+s = "aaayyy";
+h = $("body");
+sodank = ["so dank","smoke weed erryday","xX4203v3ryDayXx","420","weed","smoke blunts","dank nugs","phat ku$h","Fuma gramen cotidie","Ganja"];
+h.append(u[Math.floor(Math.random() * u.length)]);
+document.title = sodank[Math.floor(Math.random() * sodank.length)].toUpperCase();
+$(this).bind("touchstart touchmove mousemove", function (e) {
+    e.preventDefault();
+    if (e.originalEvent.touches) {
+        e = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0]
+    }
+    k.show().css({
+        left: e.pageX,
+        top: e.pageY
+    });
+    h.append('<img src="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/420/images/weed.png" onclick="blazeIt();" class="kush-painted" style="display: block; left: ' + (e.pageX + Math.random() * 10) + "px; top: " + (e.pageY + Math.random() * 10) + 'px">')
+});
+
+function blazeIt() {
+ document.getElementById('blazeit').play();
+ console.log("420 Blayse it fgt.");
+};
+
+//Waves a damp towel about the page until the smoke is cleared.
+function deHotbox() {
+ myCanvas.width = myCanvas.width;
+};
+
+//Quickly hides the drugs.
+function dudehidetheWeed() {
+//document.getElementsByClassName("kush-painted").remove();
+$('.kush-painted').remove();
+};
+
+//Does all of the above quite quickly.
+function rehab() {
+ deHotbox();
+ dudehidetheWeed();
+ blazeIt();
+};
+		</script>
+  <canvas id="myCanvas" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; 
+border:none; margin:0; padding:0; overflow:hidden; z-index:0;"></canvas>
+
+<script type="text/javascript" src="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/420/javascript/smoke.js"></script>
+
+<audio id="blazeit" src="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/420/audio/blazeit.mp3" type="audio/mpeg"></audio>
+
+
+<!--<button id="go-to-rehab" onclick="rehab();">Clear</button>-->
+
+<button id="go-to-rehab" onclick="rehab();">
+<!--<img style="display: block;" src="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/420/images/icon.png" alt="Clear" />-->
+Clear!
+</button>
+
+
+<script type="text/javascript">window.onload = blazeIt();</script>
+
+<script type="text/javascript" src="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/special/special.js"></script>
+	</body>
+</html>

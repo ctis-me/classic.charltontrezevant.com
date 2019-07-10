@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://www.charltontrezevant.com/</loc>
+  <lastmod>2015-06-23T05:40:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.charltontrezevant.com/v/</loc>
+  <lastmod>2015-04-30T00:13:25+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.charltontrezevant.com/compliments/</loc>
+  <lastmod>2015-06-11T00:43:29+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.charltontrezevant.com/jadenisms/</loc>
+  <lastmod>2015-06-11T00:36:19+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.charltontrezevant.com/420/</loc>
+  <lastmod>2015-06-11T00:33:07+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.charltontrezevant.com/skeltal/</loc>
+  <lastmod>2015-06-11T00:35:18+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.charltontrezevant.com/v/zim/</loc>
+  <lastmod>2014-12-26T02:11:02+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://www.charltontrezevant.com/v/blklat/</loc>
+  <lastmod>2015-04-30T00:13:59+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://www.charltontrezevant.com/v/andrewatreus/</loc>
+  <lastmod>2014-12-26T02:11:01+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://www.charltontrezevant.com/v/tunak/</loc>
+  <lastmod>2015-04-30T00:16:30+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.01</priority>
+</url>
+</urlset>

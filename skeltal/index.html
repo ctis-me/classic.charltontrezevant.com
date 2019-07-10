@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<!--
+Yet another ridiculous web page by Charlton Trezevant.
+
+Special thanks to the marvelous VisualIdiot for his fantastic jQuery plugin,
+which has clearly been put to good use :)
+
+Right in time for halloween, too! (Assuming you're viewing this page last month)
+
+As always, thanks for visiting!
+
+Fork it on GitHub: https://github.com/ctrezevant/spooky-skeletons/
+
+-->
+<head>
+
+<title>Spooke Ske;ltors</title>
+
+<style>
+#skeltal{-webkit-animation:spin 3s linear infinite; -moz-animation:spin 3s linear infinite; animation:spin 3s linear infinite;}
+
+/*
+I don't need this, I could have used background-image instead of my
+image that takes up the entire page, but fuck it. I'm tired. And lazy.
+
+Wait, what am I doing justifying my code?
+
+Go away, you nitpickin' jerk! ;P
+*/
+body{ background-color: black;}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+</style>
+
+<script type="text/javascript" src="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/javascript/jquery.min.js"></script>
+<!-- Google Anal ytics-->
+<script type="text/javascript" src="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/javascript/an.js" async></script>
+</head>
+
+<body onload="$($.spook)">
+
+<img src="https://i.imgur.com/kasUcYa.jpg" style="position:fixed; display: block; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:-1000; ">
+<audio src="https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/audio/background.mp3" autoplay="" loop=""></audio>
+  <script>
+  (function($) {
+      $.spook = function(tings) {
+          var spook = $('body').css('font-family', 'Comic Sans MS, Comic Sans, Chalkboard, cursive');
+          tings = $.extend(['spooky', 'skeltal', 'fear', 'scary', 'frighten', 'creepy', 'bones'], tings);
+          var r = function(arr) {
+              if(!arr) arr = tings; return arr[Math.floor(Math.random() * arr.length)];
+          };
+          var spookfix = [
+              'thank mr.skeltal', 'such ' + r(), 'very ' + r(), 'much ' + r(),
+              'thank mr.skeltal', 'such ' + r(), 'very ' + r(), 'much ' + r(),
+              'so ' + r(), 'many ' + r(),
+              '3spooky5me', ''
+          ];
+          var very = spook.append('<div class="such overlay" />').children('.such.overlay').css({
+              position: 'fixed',
+              left: 0,
+              right: 0,
+              top: 0,
+              bottom: 0,
+              pointerEvents: 'none'
+          });
+          setInterval(function() {
+          var sk = new Array;
+          sk[0] = https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/img/skeltal1.gif";
+          sk[1] = https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/img/skeltal2.gif";
+          sk[2] = https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/img/skeltal3.gif";
+          sk[3] = https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/img/skeltal4.gif";
+          sk[4] = https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/img/skeltal5.gif";
+          sk[5] = https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/img/skeltal6.gif";
+          sk[6] = "https://i.imgur.com/PW9QRnU.gif";
+          var sel = Math.floor(Math.random() * sk.length);
+              $('.such.overlay').append(
+                  '<span id="text" style="position: absolute; left: ' + Math.random()  *100 + '%;top: ' + Math.random()  *100 + '%;font-size: ' + Math.max(24, (Math.random() * 50 + 50)) + 'px; color: rgb(' + Math.round(Math.random() * 255) + ', ' + Math.round(Math.random() * 255) + ', ' + Math.round(Math.random() * 255) + ');">'
+                      + r(spookfix) + '</span>' + '<br />' +
+                      '<span style="position: absolute; left: ' + Math.random()  *100 + '%;top: ' + Math.random()  *100 + '%;"><img id="skeltal" src="' + sk[sel] + '"></img>' + '</span>'
+                    );
+          }, 2000);
+      };
+  })(jQuery);
+  </script
+</body>
+<div class="such overlay" style="position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; pointer-events: none;">
+</div>
+</body>

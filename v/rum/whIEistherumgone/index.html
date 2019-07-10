@@ -1,0 +1,41 @@
+<!DOCTYPE html-->
+
+<!--But why is the rum gone?-->
+
+<head>
+	<title>But why is the rum gone?</title> 
+	<link rel="shortcut icon" type="image/x-icon" href="http://userserve-ak.last.fm/serve/64/46616879.jpg" />
+<style>
+body {
+  background-image:url('../THERUM.gif');
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+}
+</style>
+
+<script type="text/javascript">
+function youburnedalltheFood() {
+myAudio = new Audio('../thetreestheRUM.mp3'); 
+myAudio.addEventListener('ended', function() {
+    this.currentTime = 0;
+    this.play();
+}, false);
+myAudio.play();
+}
+</script>
+
+
+</head>
+
+<body>
+
+<img id="mobilebutton" src="http://pythonhosted.org/pgmagick/_images/transparent.png" onclick="youburnedalltheFood();" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; 
+border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></img>
+
+<script type="text/javascript">
+window.onload = youburnedalltheFood();
+</script>
+

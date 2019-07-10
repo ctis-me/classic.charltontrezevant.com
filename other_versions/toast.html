@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+<title>Dave's potted toast</title>
+<script>
+window.setTimeout(function() {
+document.querySelector("body").id = "flash";
+document.querySelector("img").src = "https://i.imgur.com/nXeFYoW.jpg";
+document.querySelector("audio").src = "https://static.charltontrezevant.com/file/charltontrezevantcom-cdn/resources/hero.mp3";
+//Lol deprecated tags
+document.querySelector("h1").innerHTML = "<marquee scrollamount='20' ><span id='blink'>** POTTED TOAST MOTHERFUCKER **</span></marquee>";
+document.querySelector("title").textContent = "YEAH BITCH";
+}, 4000);
+</script>
+
+<style>
+body {
+  background-color: #add8e6;
+}
+
+h1 { 
+  font-family: Arial black;
+}
+
+#blink {
+  color: white;
+  -webkit-animation: blink .2s infinite;
+  animation: blink .2s infinite;
+  font-family: 'Exo 2', sans-serif;
+}
+
+#flash {
+-webkit-animation-direction: normal;
+-webkit-animation-duration: .2s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-name: colors;
+animation-direction: normal;
+animation-duration:
+.2s;
+animation-iteration-count: infinite;
+animation-name: colors;
+}
+
+@-webkit-keyframes colors {
+  0% {background-color: #39f;}
+  15% {background-color: #8bc5d1;}
+  30% {background-color: #f8cb4a;}
+  45% {background-color: #95b850;}
+  60% {background-color: #944893;}
+  75% {background-color: #c71f00;}
+  90% {background-color: #bdb280;}
+  100% {background-color: #39f;}
+}
+@-moz-keyframes colors {
+  0% {background-color: #39f;}
+  15% {background-color: #8bc5d1;}
+  30% {background-color: #f8cb4a;}
+  45% {background-color: #95b850;}
+  60% {background-color: #944893;}
+  75% {background-color: #c71f00;}
+  90% {background-color: #bdb280;}
+  100% {background-color: #39f;}
+}
+@keyframes colors {
+  0% {background-color: #39f;}
+  15% {background-color: #8bc5d1;}
+  30% {background-color: #f8cb4a;}
+  45% {background-color: #95b850;}
+  60% {background-color: #944893;}
+  75% {background-color: #c71f00;}
+  90% {background-color: #bdb280;}
+  100% {background-color: #39f;}
+}
+
+@-webkit-keyframes blink {
+    0%   {color: #FFFFFF;}
+    25%  {color: #FFFFFF;}
+    50%  {color: #000000;}
+    100% {color: #000000;}
+}
+
+@keyframes blink {
+    0%   {color: #FFFFFF;}
+    25%  {color: #FFFFFF;}
+    50%  {color: #000000;}
+    100% {color: #000000;}
+}
+</style>
+<link href='http://fonts.googleapis.com/css?family=Exo+2:400,900' rel='stylesheet' type='text/css'>
+</head>
+
+<body id="">
+<h1 style="text-align:center">Potted Toast!</h1>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/SKTDLnZ.png">
+<!-- Song is Overdrive by Lazerhawk http://lazerhawk.bandcamp.com/ -->
+<audio style="visibility:hidden;" controls="" autoplay="" loop="" src=""></audio>
+
+<script>
+document.querySelector("img").style.width = window.innerWidth;
+document.querySelector("img").style.width = window.innerHeight;
+</script>
+</body>
+
