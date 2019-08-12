@@ -85,7 +85,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
     //Construct a request to be made to our resource proxy.
     var url = document.getElementById('xmlpath').value;
-    url = window.location.protocol + '//www.charltontrezevant.com/xword/mkreq?filename=' + url.slice(url.indexOf('xmlpath=')+8, url.length);
+    url = window.location.protocol + 'https://classic.charltontrezevant.com/xword/mkreq?filename=' + url.slice(url.indexOf('xmlpath=')+8, url.length);
 
     //Log constructed proxy URL to the console.
     console.log(url);
